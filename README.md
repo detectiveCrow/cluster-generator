@@ -1,2 +1,2 @@
-# cluster-generater
-cluster generater made with terraform
+# cluster-generator
+cluster generator made with terraform
