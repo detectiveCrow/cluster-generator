@@ -7,5 +7,7 @@ export TF_VAR_public_key=test
 # key 삭제
 rm -rf key key.pub
 
+rm -rf kube_hosts
+
 # 생성한 인스턴스 삭제
 terraform destroy -auto-approve

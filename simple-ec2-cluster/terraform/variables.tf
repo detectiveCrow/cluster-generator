@@ -17,7 +17,7 @@ variable "public_subnet_cidr" {
 variable "instance_ami" {
   description = "ami of instances"
   type = string
-  default     = "ami-0454bb2fefc7de534"
+  default     = "ami-0ea5eb4b05645aa8a"
 }
 
 variable "instance_type" {
