@@ -1,7 +1,5 @@
 - hosts: master
-  become: yes
-  become_method: sudo
-  become_user: root
+  become: no
   gather_facts: false
   tasks:
     - name: Generate join command
